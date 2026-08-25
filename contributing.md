@@ -51,6 +51,12 @@ re-grouped without re-parsing prose.
 `GEO: Europe` but `LEVEL: International` — it is a binding treaty open to non-European
 states, not an EU instrument. Do not conflate "Europe" with "EU".
 
+## The ⭐ marker
+
+A ⭐ marks a source the maintainer opens first in an actual engagement. It is a
+practitioner's shortlist, not a quality ranking of the other entries, and it is set by
+the maintainer — please do not add one in a pull request.
+
 ## Quality bar
 
 - Link to the primary source (the regulator, the standards body, the project

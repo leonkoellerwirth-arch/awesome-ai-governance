@@ -2,10 +2,11 @@
 
 > A curated list of regulations, standards, risk frameworks, security resources, and open-source tools for governing AI systems — with a focus on agentic AI in regulated environments.
 
-**NOTICE:** This list is curated, not exhaustive. Entries are grouped by topic and then by region, because a single document is often several things at once — the EU AI Act is regulation, transparency, and risk management in one. Every entry in the topical sections additionally carries a machine-readable tag comment in the source (`GEO`, `LEVEL`, `TOPIC`, `STATUS`, `SECTOR`, `TYPE`); the fields are documented in `contributing.md`. "Europe" is not "EU": the European Union is a supranational legal order, while the Council of Europe covers 46 states and works from a human-rights basis. Vendor marketing content is out of scope.
+**NOTICE:** This list is curated, not exhaustive. Entries are grouped by topic and then by region, because a single document is often several things at once — the EU AI Act is regulation, transparency, and risk management in one. Entries carry a machine-readable tag comment in the source (`GEO`, `LEVEL`, `TOPIC`, `STATUS`, `SECTOR`, `TYPE`), except under *Related Awesome Lists* and *Maintainer*; the fields are documented in `contributing.md`. A ⭐ marks the sources I open first in an engagement. "Europe" is not "EU": the European Union is a supranational legal order, while the Council of Europe covers 46 states and works from a human-rights basis. Vendor marketing content is out of scope.
 
 ## Contents
 
+- [How I Use This List](#how-i-use-this-list)
 - [Regulations & Law](#regulations--law)
 - [Standards & Technical Specifications](#standards--technical-specifications)
 - [Principles, Frameworks & Strategies](#principles-frameworks--strategies)
@@ -15,8 +16,24 @@
 - [Evaluation, Assurance & Red Teaming](#evaluation-assurance--red-teaming)
 - [Transparency & Documentation](#transparency--documentation)
 - [Reports, Monitoring & Policy Trackers](#reports-monitoring--policy-trackers)
+- [Financial Services & Prudential AI Governance](#financial-services--prudential-ai-governance)
 - [Sector-Specific Governance](#sector-specific-governance)
 - [Related Awesome Lists](#related-awesome-lists)
+- [Maintainer](#maintainer)
+
+## How I Use This List
+
+Five steps, in the order I actually run them on a regulated engagement. Deliberately unlinked — each source is one section below.
+
+**1. EU AI Act.** Establish the legal role (provider or deployer), the risk classification, and the baseline obligations. Everything downstream depends on getting this right, and it is the step most often skipped.
+
+**2. DORA and its ICT risk-management RTS.** For financial-sector deployments this is where operational resilience, critical dependencies, outsourcing, evidence, and incident management get pinned down. DORA is not an AI regulation — it is the substrate most productive AI and agentic workloads in finance actually run on.
+
+**3. ISO/IEC 42001.** Turn the obligations into an auditable management system: ownership, controls, monitoring, continual improvement. This is what converts a legal analysis into something an auditor can accept.
+
+**4. OWASP GenAI Security Project and MITRE ATLAS.** Map the concrete attack and failure paths. For agentic workflows — tool access, memory, delegated identity — this is where the real exposure sits, and where a purely legal analysis says nothing useful.
+
+**5. NIST AI RMF.** The cross-functional structure for documenting governance decisions, risk treatment, test evidence, and residual risk. Useful even under EU law, because it gives the documentation a shape that non-lawyers can work with.
 
 ## Regulations & Law
 
@@ -188,15 +205,6 @@
 <!-- GEO: Global | LEVEL: International | TOPIC: Regulation | STATUS: Guidance | SECTOR: Cross-sector | TYPE: Database -->
 - [awesome-ai-agent-governance](https://github.com/systempromptio/awesome-ai-agent-governance) - Curated list focused on governing AI agents in production: policy enforcement, audit trails, MCP security.
 
-<!--
-  MAINTAINER ENTRIES — pending. The two placeholder entries that were here pointed at
-  repositories that do not exist yet (governance-mcp, ai-governance-decision-kit).
-  They were removed rather than shipped as dead links. Candidates to add once decided:
-    - https://github.com/leonkoellerwirth-arch/agentic-ai-governance-toolkit
-    - https://github.com/leonkoellerwirth-arch/local-agent-pipeline
-    - https://github.com/leonkoellerwirth-arch/rag-approval-blueprint
-  Mark any self-maintained entry with *(maintainer)* per contributing.md.
--->
 
 ## Evaluation, Assurance & Red Teaming
 
@@ -250,6 +258,52 @@
 <!-- GEO: Global | LEVEL: International | TOPIC: Principles | STATUS: Guidance | SECTOR: Cross-sector | TYPE: Report -->
 - [Stanford AI Index](https://aiindex.stanford.edu/) - Annual data-driven report tracking AI progress, policy, economics, and public opinion.
 
+## Financial Services & Prudential AI Governance
+
+The deepest vertical in this list. DORA is not an AI regulation, but it is the operational-resilience and third-party substrate that most productive AI, GenAI, and agentic workloads in EU finance actually run on — which is where AI governance, outsourcing, cybersecurity, incident management, auditability, and business continuity meet.
+
+### European Union — Binding Law and Technical Standards
+
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Binding | SECTOR: Finance | TYPE: Law -->
+- ⭐ [Digital Operational Resilience Act (DORA) — Regulation (EU) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng) - Directly applicable EU regulation on ICT risk management, incident reporting, resilience testing, and ICT third-party risk for financial entities; applicable since 17 January 2025.
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Binding | SECTOR: Finance | TYPE: Standard -->
+- ⭐ [DORA RTS — ICT Risk Management Framework — Delegated Regulation (EU) 2024/1774](https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng) - Technical standards specifying the ICT risk-management tools, methods, processes, and policies DORA requires, plus the simplified framework for smaller entities.
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Binding | SECTOR: Finance | TYPE: Standard -->
+- [DORA RTS — ICT Third-Party Contracting — Delegated Regulation (EU) 2024/1773](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401773) - Minimum contractual content and pre-contractual risk assessment for ICT services supporting critical or important functions; the clause-level reference for AI vendor contracts.
+
+### Germany — BaFin
+
+<!-- GEO: Europe | LEVEL: National | TOPIC: Regulation | STATUS: Guidance | SECTOR: Finance | TYPE: Framework -->
+- ⭐ [BaFin — AI Market Surveillance in the Financial Sector](https://www.bafin.de/DE/unternehmen-maerkte/aufsicht/alle-unternehmen/ki-marktueberwachung/ki-marktueberwachung_node.html) - BaFin's role as AI Act market-surveillance authority for AI systems tied to regulated financial activity, with its stated sequencing of prohibited practices, AI literacy, and transparency duties first (German).
+<!-- GEO: Europe | LEVEL: National | TOPIC: Principles | STATUS: Guidance | SECTOR: Finance | TYPE: Framework -->
+- [BaFin — Principles for the Use of Algorithms in Decision-Making Processes](https://www.bafin.de/SharedDocs/Downloads/DE/Aufsichtsrecht/dl_Prinzipienpapier_BDAI.pdf?__blob=publicationFile&v=1) - Supervisory principles on governance, data quality, model risk, traceability, accountability, and customer protection for algorithmic decisions (German, PDF).
+<!-- GEO: Europe | LEVEL: National | TOPIC: Risk Management | STATUS: Guidance | SECTOR: Finance | TYPE: Report -->
+- [BaFin — Big Data Meets Artificial Intelligence](https://www.bafin.de/SharedDocs/Downloads/DE/dl_bdai_studie.html) - The underlying study on challenges and implications of big data and AI for the supervision and regulation of financial services (German).
+<!-- GEO: Europe | LEVEL: National | TOPIC: Risk Management | STATUS: Binding | SECTOR: Finance | TYPE: Framework -->
+- [BaFin — Bank Supervisory Requirements for IT (BAIT), Circular 10/2017 (BA)](https://www.bafin.de/SharedDocs/Downloads/DE/Rundschreiben/dl_rs_1710_ba_BAIT.html) - German supervisory requirements for IT governance, IT operations, information security, and IT risk management; revised with effect from 17 January 2025 to align with DORA (German).
+
+### European Supervisory Authorities
+
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Regulation | STATUS: Guidance | SECTOR: Finance | TYPE: Framework -->
+- ⭐ [EBA — Artificial Intelligence](https://www.eba.europa.eu/publications-and-media/publications/special-topic-artificial-intelligence) - The EBA's central resource on AI in EU banking, including its monitoring of machine-learning and general-purpose AI use cases.
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Guidance | SECTOR: Finance | TYPE: Report -->
+- [EBA — Report on Big Data and Advanced Analytics](https://www.eba.europa.eu/publications-and-media/press-releases/eba-report-identifies-key-challenges-roll-out-big-data-and) - Governance, data management, ethics, explainability, consumer protection, and operational resilience for advanced analytics in banking.
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Guidance | SECTOR: Finance | TYPE: Report -->
+- [EBA — Discussion Paper on Machine Learning for IRB Models](https://www.eba.europa.eu/discussion-paper-machine-learning-irb-models) - Supervisory expectations for the prudent use of machine learning inside internal ratings-based credit-risk models.
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Guidance | SECTOR: Finance | TYPE: Report -->
+- [EBA — Follow-up Report on Machine Learning for IRB Models](https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-follow-report-use-machine-learning-internal) - Practical use cases from the consultation and the reaffirmed recommendations for ML in regulatory-capital models.
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Guidance | SECTOR: Finance | TYPE: Framework -->
+- ⭐ [EIOPA — Opinion on AI Governance and Risk Management](https://www.eiopa.europa.eu/publications/opinion-artificial-intelligence-governance-and-risk-management_en) - Risk-based, proportionate supervisory guidance for insurers covering data governance, record keeping, fairness, cybersecurity, explainability, and human oversight.
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Regulation | STATUS: Guidance | SECTOR: Finance | TYPE: Report -->
+- [EIOPA — AI Systems in the Insurance Sector: Regulatory Framework Factsheet](https://www.eiopa.europa.eu/publications/factsheet-regulatory-framework-applicable-ai-systems-insurance-sector_en) - How the AI Act interacts with sectoral insurance requirements, including the high-risk life- and health-insurance use cases.
+
+### International Financial Stability
+
+<!-- GEO: Global | LEVEL: International | TOPIC: Risk Management | STATUS: Guidance | SECTOR: Finance | TYPE: Report -->
+- ⭐ [FSB — The Financial Stability Implications of Artificial Intelligence](https://www.fsb.org/2024/11/the-financial-stability-implications-of-artificial-intelligence/) - Global assessment of systemic vulnerabilities from AI adoption: third-party concentration, market correlation, cyber risk, model risk, data quality, governance, fraud, and disinformation.
+<!-- GEO: Global | LEVEL: International | TOPIC: Risk Management | STATUS: Guidance | SECTOR: Finance | TYPE: Report -->
+- [BIS FSI — Executive Summary of the FSB AI Report](https://www.bis.org/fsi/fsisummaries/exsum_23904.htm) - Concise supervisory summary of the FSB's recommendations on data gaps, regulatory adequacy, and supervisory capacity.
+
 ## Sector-Specific Governance
 
 ### Healthcare
@@ -258,11 +312,6 @@
 - [WHO — Ethics and governance of AI for health: large multi-modal models](https://www.who.int/publications/i/item/9789240084759) - WHO guidance on governing LMMs in health systems, covering liability, oversight, and deployment duties.
 <!-- GEO: North America | LEVEL: National | TOPIC: Regulation | STATUS: Guidance | SECTOR: Healthcare | TYPE: Framework -->
 - [FDA — Artificial Intelligence in Software as a Medical Device](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device) - US regulatory approach to AI/ML-based medical devices, including predetermined change control plans.
-
-### Finance
-
-<!-- GEO: Global | LEVEL: International | TOPIC: Risk Management | STATUS: Guidance | SECTOR: Finance | TYPE: Report -->
-- [FSB — The Financial Stability Implications of Artificial Intelligence](https://www.fsb.org/2024/11/the-financial-stability-implications-of-artificial-intelligence/) - Financial Stability Board analysis of systemic risk channels created by AI adoption in finance.
 
 ### Employment
 
@@ -279,6 +328,14 @@
 - [awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) - The canonical curated list of open datasets; useful for grounding governance case studies in real data.
 - [awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) - Tools for deploying, monitoring, and securing ML in production (Institute for Ethical AI).
 - [awesome-llm-security](https://github.com/corca-ai/awesome-llm-security) - Papers, tools, and writeups on LLM security.
+
+## Maintainer
+
+Maintained by [Leon Köllerwirth Hlihel](https://github.com/leonkoellerwirth-arch), who also publishes open governance artifacts for regulated and agentic-AI environments. Listed here rather than inside the categories above, so curation and authorship stay separate.
+
+- [agentic-ai-governance-toolkit](https://github.com/leonkoellerwirth-arch/agentic-ai-governance-toolkit) - Governance artifacts for AI agents in regulated organizations: lifecycle models, risk scoring, EU AI Act and DORA checklists, and a working evaluator. *(maintainer)*
+- [rag-approval-blueprint](https://github.com/leonkoellerwirth-arch/rag-approval-blueprint) - Approval file, control catalogue with test procedures, deletion evidence, and a worked approval run for RAG systems in BaFin-regulated institutions. *(maintainer)*
+- [local-agent-pipeline](https://github.com/leonkoellerwirth-arch/local-agent-pipeline) - Fully local multi-agent pipeline with a tamper-evident audit trail, action-space whitelist, and human-in-the-loop gate; a reference pattern, not a framework. *(maintainer)*
 
 ## Contributing
 
