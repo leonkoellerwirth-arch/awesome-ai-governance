@@ -81,6 +81,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 - [China — Provisions on Deep Synthesis Internet Information Services](https://www.cac.gov.cn/2022-12/11/c_1672221949318230.htm) - Binding rules on synthetic media and deepfakes; the origin of China's synthetic-content labelling regime.
 <!-- GEO: Asia-Pacific | LEVEL: National | TOPIC: Regulation | STATUS: Binding | SECTOR: Cross-sector | TYPE: Law -->
 - [South Korea — Framework Act on AI Development and Trust (English translation)](https://cset.georgetown.edu/publication/south-korea-ai-law-2025/) - Full English translation of the AI Basic Act, the second comprehensive national AI statute after the EU AI Act (CSET, Georgetown).
+<!-- GEO: Asia-Pacific | LEVEL: National | TOPIC: Risk Management | STATUS: Proposed | SECTOR: Finance | TYPE: Framework -->
+- [MAS — Proposed Guidelines on AI Risk Management](https://www.mas.gov.sg/publications/consultations/2025/consultation-paper-on-guidelines-on-artificial-intelligence-risk-management) - Singapore's supervisory expectations for financial institutions across the AI lifecycle, explicitly covering agentic use. Consultation of November 2025; supervisory expectations rather than legislation, with a transition period proposed before firms are expected to have implemented them.
 <!-- GEO: Asia-Pacific | LEVEL: National | TOPIC: Regulation | STATUS: Binding | SECTOR: Cross-sector | TYPE: Tool -->
 - [Korea AI Basic Act Explorer](https://aibasicact.kr/) - Article-by-article browsable version of the Korean AI Basic Act and its enforcement decree.
 
@@ -202,6 +204,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - Open protocol connecting AI systems to tools and data; the specification underlying much of today's agent tooling.
 <!-- GEO: Global | LEVEL: International | TOPIC: Principles | STATUS: Guidance | SECTOR: Cross-sector | TYPE: Report -->
 - [Anthropic — Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) - Engineering guidance on agent architectures, including when *not* to build an agent.
+<!-- GEO: Asia-Pacific | LEVEL: National | TOPIC: Security | STATUS: Voluntary | SECTOR: Finance | TYPE: Framework -->
+- [SAFR — Safeguards for Agentic Finance at Runtime](https://www.mas.gov.sg/publications/monographs-or-information-paper/2026/safeguards-for-agentic-finance-at-runtime) - Industry white paper convened by MAS with HSBC, J.P. Morgan, Mastercard, Visa, OCBC and others: four runtime components evaluate every proposed agent action before execution and resolve it to deny, escalate, auto-execute or observe. Explicitly not supervisory expectation — and the most concrete published answer to how agent actions get authorised.
 <!-- GEO: Global | LEVEL: International | TOPIC: Regulation | STATUS: Guidance | SECTOR: Cross-sector | TYPE: Database -->
 - [awesome-ai-agent-governance](https://github.com/systempromptio/awesome-ai-agent-governance) - Curated list focused on governing AI agents in production: policy enforcement, audit trails, MCP security.
 
