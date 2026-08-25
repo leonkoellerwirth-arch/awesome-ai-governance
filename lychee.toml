@@ -1,0 +1,25 @@
+# lychee configuration for the weekly link check.
+#
+# Several authoritative sources sit behind Cloudflare or equivalent bot protection and
+# return 403/503 to any non-browser client. They are reachable in a browser, so excluding
+# them here prevents false failures. Re-check them by hand when touching those entries.
+
+max_retries = 3
+timeout = 30
+max_concurrency = 8
+user_agent = "Mozilla/5.0 (compatible; awesome-ai-governance link-check; +https://github.com/leonkoellerwirth-arch/awesome-ai-governance)"
+
+# Treat these as informational rather than failures.
+accept = ["200", "202", "203", "204", "206", "429"]
+
+exclude = [
+  "^https://www\\.coe\\.int",
+  "^https://unece\\.org",
+  "^https://www\\.iso\\.org",
+  "^https://www\\.industry\\.gov\\.au",
+  "^https://www\\.edps\\.europa\\.eu",
+  "^https://www\\.cac\\.gov\\.cn",
+  "^https://www\\.meti\\.go\\.jp",
+  "^https://iapp\\.org",
+  "^https://leginfo\\.legislature\\.ca\\.gov",
+]
