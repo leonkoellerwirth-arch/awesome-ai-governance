@@ -22,4 +22,5 @@ exclude = [
   "^https://www\\.meti\\.go\\.jp",
   "^https://iapp\\.org",
   "^https://leginfo\\.legislature\\.ca\\.gov",
+  "^https://www\\.nyc\\.gov",
 ]
