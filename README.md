@@ -271,11 +271,17 @@ The deepest vertical in this list. DORA is not an AI regulation, but it is the o
 ### European Union — Binding Law and Technical Standards
 
 <!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Binding | SECTOR: Finance | TYPE: Law -->
-- ⭐ [Digital Operational Resilience Act (DORA) — Regulation (EU) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng) - Directly applicable EU regulation on ICT risk management, incident reporting, resilience testing, and ICT third-party risk for financial entities; applicable since 17 January 2025.
+- ⭐ [Digital Operational Resilience Act (DORA) — Regulation (EU) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng) - Directly applicable EU regulation on ICT risk management, incident reporting, resilience testing, and ICT third-party risk for financial entities; applicable since 17 January 2025. For AI-supported systems it is the binding layer the AI Act leaves untouched: the ICT third-party dependency an AI service creates (Art. 28), the resilience testing it must survive (Art. 24–27), and the incident that has to be reported (Art. 17–19).
 <!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Binding | SECTOR: Finance | TYPE: Standard -->
 - ⭐ [DORA RTS — ICT Risk Management Framework — Delegated Regulation (EU) 2024/1774](https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng) - Technical standards specifying the ICT risk-management tools, methods, processes, and policies DORA requires, plus the simplified framework for smaller entities.
 <!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Binding | SECTOR: Finance | TYPE: Standard -->
 - [DORA RTS — ICT Third-Party Contracting — Delegated Regulation (EU) 2024/1773](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401773) - Minimum contractual content and pre-contractual risk assessment for ICT services supporting critical or important functions; the clause-level reference for AI vendor contracts.
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Binding | SECTOR: Finance | TYPE: Standard -->
+- [DORA RTS — ICT Subcontracting — Delegated Regulation (EU) 2025/532](https://eur-lex.europa.eu/eli/reg_del/2025/532/oj/eng) - What a financial entity must determine and assess before an ICT service supporting a critical or important function is subcontracted; the chain-of-provider question behind any AI service built on someone else's model or infrastructure.
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Binding | SECTOR: Finance | TYPE: Standard -->
+- [DORA RTS — Incident Classification — Delegated Regulation (EU) 2024/1772](https://eur-lex.europa.eu/eli/reg_del/2024/1772/oj/eng) - Criteria and materiality thresholds deciding when an ICT-related incident counts as major and must be reported, plus the required content of those reports.
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Transparency | STATUS: Binding | SECTOR: Finance | TYPE: Standard -->
+- [DORA ITS — Register of Information — Implementing Regulation (EU) 2024/2956](https://eur-lex.europa.eu/eli/reg_impl/2024/2956/oj/eng) - Standard templates for the register of all contractual arrangements on the use of ICT services required by DORA Art. 28(3); in practice the inventory an AI or GenAI vendor arrangement has to appear in.
 
 ### Germany — BaFin
 
@@ -290,6 +296,10 @@ The deepest vertical in this list. DORA is not an AI regulation, but it is the o
 
 ### European Supervisory Authorities
 
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Regulation | STATUS: Guidance | SECTOR: Finance | TYPE: Framework -->
+- [EBA — Digital Operational Resilience Act](https://www.eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act) - The EBA's DORA hub: the joint ESAs technical standards, the implementation timeline, and the oversight framework for critical ICT third-party service providers — the route by which a large AI or cloud provider can end up under direct European supervision.
+<!-- GEO: Europe | LEVEL: Regional | TOPIC: Regulation | STATUS: Guidance | SECTOR: Finance | TYPE: Framework -->
+- [ESMA — Digital Operational Resilience Act (DORA)](https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora) - The securities-markets counterpart, covering DORA as it applies to trading venues, CCPs, CSDs, fund managers, and the ESAs' shared oversight work.
 <!-- GEO: Europe | LEVEL: Regional | TOPIC: Regulation | STATUS: Guidance | SECTOR: Finance | TYPE: Framework -->
 - ⭐ [EBA — Artificial Intelligence](https://www.eba.europa.eu/publications-and-media/publications/special-topic-artificial-intelligence) - The EBA's central resource on AI in EU banking, including its monitoring of machine-learning and general-purpose AI use cases.
 <!-- GEO: Europe | LEVEL: Regional | TOPIC: Risk Management | STATUS: Guidance | SECTOR: Finance | TYPE: Report -->
