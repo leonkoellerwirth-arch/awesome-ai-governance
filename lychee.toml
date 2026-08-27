@@ -27,4 +27,8 @@ exclude = [
   "^https://iapp\\.org",
   "^https://leginfo\\.legislature\\.ca\\.gov",
   "^https://www\\.nyc\\.gov",
+  # Answers 200 in under three seconds from an ordinary client but hangs past a 60s
+  # timeout on GitHub-hosted runners, which points at IP-range blocking rather than a
+  # slow server. Verified by hand 2026-08-27; re-check by hand when touching the entry.
+  "^https://www25\\.senado\\.leg\\.br",
 ]
