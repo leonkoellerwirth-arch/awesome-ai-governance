@@ -220,6 +220,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 - [Anthropic — Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) - Engineering guidance on agent architectures, including when *not* to build an agent.
 <!-- GEO: Asia-Pacific | LEVEL: National | TOPIC: Security | STATUS: Voluntary | SECTOR: Finance | TYPE: Framework -->
 - [SAFR — Safeguards for Agentic Finance at Runtime](https://www.mas.gov.sg/publications/monographs-or-information-paper/2026/safeguards-for-agentic-finance-at-runtime) - Industry white paper convened by MAS with HSBC, J.P. Morgan, Mastercard, Visa, OCBC and others: four runtime components evaluate every proposed agent action before execution and resolve it to deny, escalate, auto-execute or observe. Explicitly not supervisory expectation — and the most concrete published answer to how agent actions get authorised.
+<!-- GEO: Global | LEVEL: International | TOPIC: Risk Management | STATUS: Voluntary | SECTOR: Cross-sector | TYPE: Tool -->
+- [agentic-ai-governance-toolkit](https://github.com/leonkoellerwirth-arch/agentic-ai-governance-toolkit) - Open-source governance artifacts for agents in regulated organisations: a seven-phase lifecycle across four responsibility lanes, a six-dimension risk rubric that resolves to a control level, EU AI Act and DORA checklists, an action-authority matrix, and a CLI that scores a use case, checks an agent against a policy, analyses its audit trail, and reports whether the legal texts a mapping cites have been superseded. Exits non-zero on findings, so it can run as a gate. *(maintained by the author of this list)*
 <!-- GEO: Global | LEVEL: International | TOPIC: Regulation | STATUS: Guidance | SECTOR: Cross-sector | TYPE: Database -->
 - [awesome-ai-agent-governance](https://github.com/systempromptio/awesome-ai-agent-governance) - Curated list focused on governing AI agents in production: policy enforcement, audit trails, MCP security.
 
@@ -373,7 +375,7 @@ The deepest vertical in this list. DORA is not an AI regulation, but it is the o
 
 Maintained by [Leon Köllerwirth Hlihel](https://github.com/leonkoellerwirth-arch), who also publishes open governance artifacts for regulated and agentic-AI environments. Listed here rather than inside the categories above, so curation and authorship stay separate.
 
-- [agentic-ai-governance-toolkit](https://github.com/leonkoellerwirth-arch/agentic-ai-governance-toolkit) - Governance artifacts for AI agents in regulated organizations: lifecycle models, risk scoring, EU AI Act and DORA checklists, and a working evaluator. *(maintainer)*
+- agentic-ai-governance-toolkit - Governance artifacts for AI agents in regulated organizations: lifecycle models, risk scoring, EU AI Act and DORA checklists, and a working evaluator. Listed with its link under *Agentic AI Governance* above, where a reader looking for it would go. *(maintainer)*
 - [rag-approval-blueprint](https://github.com/leonkoellerwirth-arch/rag-approval-blueprint) - Approval file, control catalogue with test procedures, deletion evidence, and a worked approval run for RAG systems in BaFin-regulated institutions. *(maintainer)*
 - [local-agent-pipeline](https://github.com/leonkoellerwirth-arch/local-agent-pipeline) - Fully local multi-agent pipeline with a tamper-evident audit trail, action-space whitelist, and human-in-the-loop gate; a reference pattern, not a framework. *(maintainer)*
 
