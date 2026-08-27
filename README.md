@@ -2,7 +2,7 @@
 
 > A curated list of regulations, standards, risk frameworks, security resources, and open-source tools for governing AI systems — with a focus on agentic AI in regulated environments.
 
-**NOTICE:** This list is curated, not exhaustive. Entries are grouped by topic and then by region, because a single document is often several things at once — the EU AI Act is regulation, transparency, and risk management in one. Entries carry a machine-readable tag comment in the source (`GEO`, `LEVEL`, `TOPIC`, `STATUS`, `SECTOR`, `TYPE`), except under *Related Awesome Lists* and *Maintainer*; the fields are documented in `contributing.md`. A ⭐ marks the sources I open first in an engagement. "Europe" is not "EU": the European Union is a supranational legal order, while the Council of Europe covers 46 states and works from a human-rights basis. Vendor marketing content is out of scope.
+**NOTICE:** This list is curated, not exhaustive. Entries are grouped by topic and then by region, because a single document is often several things at once — the EU AI Act is regulation, transparency, and risk management in one. Entries carry a machine-readable tag comment in the source (`GEO`, `LEVEL`, `TOPIC`, `STATUS`, `SECTOR`, `TYPE`), except under *Related Awesome Lists* and *Maintainer*; the fields are documented in `contributing.md`. A ⭐ marks the sources I open first in an engagement. "Europe" is not "EU": the European Union is a supranational legal order, while the Council of Europe covers 46 states and works from a human-rights basis. Vendor marketing content is out of scope. Links are checked automatically (lychee, weekly and on every pull request); entries are reviewed section by section, and each section carries the date it was last gone through.
 
 **→ [Framework Mapping: EU AI Act ↔ NIST AI RMF ↔ ISO/IEC 42001 ↔ DORA](FRAMEWORK-MATRIX.md)** — ten governance requirements mapped across the four frameworks, with article, function, and clause references.
 
@@ -38,6 +38,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 **5. NIST AI RMF.** The cross-functional structure for documenting governance decisions, risk treatment, test evidence, and residual risk. Useful even under EU law, because it gives the documentation a shape that non-lawyers can work with.
 
 ## Regulations & Law
+
+<sub>Section last reviewed: 2026-08</sub>
 
 ### Europe
 
@@ -95,6 +97,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 
 ## Standards & Technical Specifications
 
+<sub>Section last reviewed: 2026-08</sub>
+
 ### International
 
 <!-- GEO: Global | LEVEL: International | TOPIC: Standard | STATUS: Voluntary | SECTOR: Cross-sector | TYPE: Framework -->
@@ -119,6 +123,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 - [NIST Trustworthy & Responsible AI Resource Center](https://airc.nist.gov/) - Playbooks, glossary, and crosswalks for putting the AI RMF into practice.
 
 ## Principles, Frameworks & Strategies
+
+<sub>Section last reviewed: 2026-08</sub>
 
 ### International
 
@@ -167,6 +173,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 
 ## Risk, Safety & Incidents
 
+<sub>Section last reviewed: 2026-08</sub>
+
 ### International
 
 <!-- GEO: Global | LEVEL: International | TOPIC: Risk Management | STATUS: Guidance | SECTOR: Cross-sector | TYPE: Database -->
@@ -181,6 +189,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 - [International AI Safety Report](https://www.gov.uk/government/publications/international-ai-safety-report-2025) - Scientific consensus assessment of advanced AI capabilities and risks, chaired by Yoshua Bengio and backed by 30 nations.
 
 ## Security & Resilience
+
+<sub>Section last reviewed: 2026-08</sub>
 
 ### International
 
@@ -200,6 +210,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 
 ## Agentic AI Governance
 
+<sub>Section last reviewed: 2026-08</sub>
+
 ### International
 
 <!-- GEO: Global | LEVEL: International | TOPIC: Standard | STATUS: Voluntary | SECTOR: Cross-sector | TYPE: Tool -->
@@ -213,6 +225,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 
 
 ## Evaluation, Assurance & Red Teaming
+
+<sub>Section last reviewed: 2026-08</sub>
 
 ### International
 
@@ -241,6 +255,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 
 ## Transparency & Documentation
 
+<sub>Section last reviewed: 2026-08</sub>
+
 ### International
 
 <!-- GEO: Global | LEVEL: International | TOPIC: Transparency | STATUS: Guidance | SECTOR: Cross-sector | TYPE: Report -->
@@ -257,6 +273,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 
 ## Reports, Monitoring & Policy Trackers
 
+<sub>Section last reviewed: 2026-08</sub>
+
 ### International
 
 <!-- GEO: Global | LEVEL: International | TOPIC: Regulation | STATUS: Guidance | SECTOR: Cross-sector | TYPE: Database -->
@@ -265,6 +283,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 - [Stanford AI Index](https://aiindex.stanford.edu/) - Annual data-driven report tracking AI progress, policy, economics, and public opinion.
 
 ## Financial Services & Prudential AI Governance
+
+<sub>Section last reviewed: 2026-08</sub>
 
 The deepest vertical in this list. DORA is not an AI regulation, but it is the operational-resilience and third-party substrate that most productive AI, GenAI, and agentic workloads in EU finance actually run on — which is where AI governance, outsourcing, cybersecurity, incident management, auditability, and business continuity meet.
 
@@ -322,6 +342,8 @@ The deepest vertical in this list. DORA is not an AI regulation, but it is the o
 
 ## Sector-Specific Governance
 
+<sub>Section last reviewed: 2026-08</sub>
+
 ### Healthcare
 
 <!-- GEO: Global | LEVEL: International | TOPIC: Principles | STATUS: Guidance | SECTOR: Healthcare | TYPE: Report -->
@@ -340,6 +362,8 @@ The deepest vertical in this list. DORA is not an AI regulation, but it is the o
 - [UNECE Vehicle Regulations (WP.29)](https://unece.org/transport/vehicle-regulations) - International regulations covering automated driving systems, including UN R155/R156 on cybersecurity and software updates.
 
 ## Related Awesome Lists
+
+<sub>Section last reviewed: 2026-08</sub>
 
 - [awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) - The canonical curated list of open datasets; useful for grounding governance case studies in real data.
 - [awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) - Tools for deploying, monitoring, and securing ML in production (Institute for Ethical AI).
