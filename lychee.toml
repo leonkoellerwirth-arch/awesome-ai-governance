@@ -5,8 +5,12 @@
 # them here prevents false failures. Re-check them by hand when touching those entries.
 
 max_retries = 3
-timeout = 30
-max_concurrency = 8
+retry_wait_time = 4
+# Several government sites answer in under three seconds from a normal client but hang
+# for GitHub-hosted runners. A generous timeout and lower concurrency keep them from
+# failing the build without pretending they were never checked.
+timeout = 60
+max_concurrency = 4
 user_agent = "Mozilla/5.0 (compatible; awesome-ai-governance link-check; +https://github.com/leonkoellerwirth-arch/awesome-ai-governance)"
 
 # Treat these as informational rather than failures.
