@@ -36,7 +36,7 @@ jobs:
           args: >-
             --config lychee.toml
             --no-progress
-            README.md contributing.md
+            README.md contributing.md FRAMEWORK-MATRIX.md
           fail: true
           output: lychee-report.md
       - name: Open an issue on broken links

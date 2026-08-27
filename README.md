@@ -4,6 +4,8 @@
 
 **NOTICE:** This list is curated, not exhaustive. Entries are grouped by topic and then by region, because a single document is often several things at once — the EU AI Act is regulation, transparency, and risk management in one. Entries carry a machine-readable tag comment in the source (`GEO`, `LEVEL`, `TOPIC`, `STATUS`, `SECTOR`, `TYPE`), except under *Related Awesome Lists* and *Maintainer*; the fields are documented in `contributing.md`. A ⭐ marks the sources I open first in an engagement. "Europe" is not "EU": the European Union is a supranational legal order, while the Council of Europe covers 46 states and works from a human-rights basis. Vendor marketing content is out of scope.
 
+**→ [Framework Mapping: EU AI Act ↔ NIST AI RMF ↔ ISO/IEC 42001 ↔ DORA](FRAMEWORK-MATRIX.md)** — ten governance requirements mapped across the four frameworks, with article, function, and clause references.
+
 ## Contents
 
 - [How I Use This List](#how-i-use-this-list)
