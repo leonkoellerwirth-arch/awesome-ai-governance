@@ -267,6 +267,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 - [Datasheets for Datasets](https://arxiv.org/abs/1803.09010) - Gebru et al.'s framework for documenting dataset provenance, composition, and intended use.
 <!-- GEO: Global | LEVEL: International | TOPIC: Transparency | STATUS: Guidance | SECTOR: Cross-sector | TYPE: Tool -->
 - [Hugging Face Model Card Guide](https://huggingface.co/docs/hub/model-cards) - Practical, widely adopted implementation of model cards.
+<!-- GEO: Global | LEVEL: International | TOPIC: Transparency | STATUS: Voluntary | SECTOR: Employment | TYPE: Standard -->
+- [Screening Decisions Profile](https://github.com/Allowly-AI/screening-decisions-profile) - Draft open specification and validators for signed employment-screening decisions, reviews, overrides, corrections, and audit exports.
 
 ### North America
 
