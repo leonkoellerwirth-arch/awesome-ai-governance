@@ -185,6 +185,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 - [OECD AI Incidents Monitor (AIM)](https://oecd.ai/en/incidents) - Automated global monitoring of AI incidents reported in news media, aligned with the OECD incident definition.
 <!-- GEO: Global | LEVEL: International | TOPIC: Security | STATUS: Guidance | SECTOR: Cross-sector | TYPE: Database -->
 - [AI Vulnerability Database (AVID)](https://avidml.org/) - Open taxonomy and database of failure modes of AI models and systems.
+<!-- GEO: Global | LEVEL: International | TOPIC: Security | STATUS: Guidance | SECTOR: Cross-sector | TYPE: Database -->
+- [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Open database of real-world AI agent security incidents since January 2025, each record linked to primary sources and marked for whether a victim was confirmed or the harm was only demonstrated. *(maintainer)*
 <!-- GEO: Global | LEVEL: International | TOPIC: Safety | STATUS: Guidance | SECTOR: Cross-sector | TYPE: Report -->
 - [International AI Safety Report](https://www.gov.uk/government/publications/international-ai-safety-report-2025) - Scientific consensus assessment of advanced AI capabilities and risks, chaired by Yoshua Bengio and backed by 30 nations.
 
