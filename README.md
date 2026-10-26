@@ -224,7 +224,8 @@ Five steps, in the order I actually run them on a regulated engagement. Delibera
 - [awesome-ai-agent-governance](https://github.com/systempromptio/awesome-ai-agent-governance) - Curated list focused on governing AI agents in production: policy enforcement, audit trails, MCP security.
 <!-- GEO: Global | LEVEL: International | TOPIC: Risk Management | STATUS: Voluntary | SECTOR: Cross-sector | TYPE: Tool -->
 - [agentic-ai-governance-toolkit](https://github.com/leonkoellerwirth-arch/agentic-ai-governance-toolkit) - Governance artifacts for agents in regulated organisations: a risk-scoring rubric, EU AI Act and DORA checklists, an action-authority matrix, and a CLI that runs them as a gate. *(maintained by the author of this list)*
-
+<!-- GEO: Global | LEVEL: International | TOPIC: Security | STATUS: Voluntary | SECTOR: Cross-sector | TYPE: Tool -->
+- [Speakeasy control plane](https://github.com/speakeasy-api/gram) - MCP gateway linking enterprise identity to tool permissions, per-action security policies, and tool-call audit records.
 
 ## Evaluation, Assurance & Red Teaming
 
